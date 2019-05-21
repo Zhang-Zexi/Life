@@ -15,10 +15,10 @@ public class OneLife extends Life {
     @Override
     public void oneLife() {
         if (lucky) {
-            System.out.println("4年后，28岁，年薪30+");
-            System.out.println("9年后, 33岁，年薪50+");
+            System.out.println("4年后，28岁，年薪30万");
+            System.out.println("9年后, 33岁，年薪50万");
             // https://blog.csdn.net/wed110/article/details/52172322
-            System.out.println("14年后，38岁，年薪60+，准备转业");
+            System.out.println("14年后，38岁，年薪60万，准备转业");
                 if (lucky) {
                     // 前四年：
                     // 假使起点为15W/年(税前)，月到手1W元，税后多余部分算额外支出不计
@@ -30,7 +30,7 @@ public class OneLife extends Life {
 
                     // 中间5年：
                     // 假设此时结婚，并育有一子，此时月收入为27/12 = 2.25W
-                    // 年薪每年上涨幅度：（50万+税后42W） (42-27)/5 = 3W (每年的薪资涨幅)
+                    // 年薪每年上涨幅度：（50万，税后42W） (42-27)/5 = 3W (每年的薪资涨幅)
                     // 第一年年余额：270000 -
                     // 4000 X 12 = 48000(房贷)
                     // - 5500 X 12 = 66000(房租，两个人不能租单间)
@@ -76,9 +76,9 @@ public class OneLife extends Life {
                     System.out.println("也可能回到老家省会/老家");
                 }
         } else {
-            System.out.println("4年后，28岁，年薪25+");
-            System.out.println("5年后，20岁，年薪30+");
-            System.out.println("5年期间，年薪浮动不大35+");
+            System.out.println("4年后，28岁，年薪25万");
+            System.out.println("5年后，32岁，年薪35万");
+            System.out.println("5年期间，年薪浮动不大，年薪40万");
             // 前四年：
             // 假使起点为15W/年(税前)，月到手1W元，税后多余部分算额外支出不计
             // 月度余额：10000 - 4000(房贷)- 2000(房租) - 2000(生活费) = 2000 x 12 = 2.4W
