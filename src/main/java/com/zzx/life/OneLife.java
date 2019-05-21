@@ -9,8 +9,8 @@ package com.zzx.life;
  **/
 public class OneLife extends Life {
 
+    // 代表幸运的情况
     public boolean lucky = true;
-    public boolean freeOccupation = true;
 
     @Override
     public void oneLife() {
@@ -19,7 +19,6 @@ public class OneLife extends Life {
             System.out.println("9年后, 33岁，年薪50+");
             // https://blog.csdn.net/wed110/article/details/52172322
             System.out.println("14年后，38岁，年薪60+，准备转业");
-            if (freeOccupation) {
                 if (lucky) {
                     // 前四年：
                     // 假使起点为15W/年(税前)，月到手1W元，税后多余部分算额外支出不计
@@ -76,7 +75,6 @@ public class OneLife extends Life {
                     System.out.println("选择创业/当培训老师/做生意");
                     System.out.println("也可能回到老家省会/老家");
                 }
-            }
         } else {
             System.out.println("4年后，28岁，年薪25+");
             System.out.println("5年后，20岁，年薪30+");
