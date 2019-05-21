@@ -9,7 +9,7 @@ package com.zzx.life;
  **/
 public class OneLife extends Life {
 
-    // 代表幸运的情况
+    // 代表很幸运的情况
     public boolean lucky = true;
 
     @Override
