@@ -69,10 +69,12 @@ public class OneLife extends Life {
                     // 当然数值浮动可能在前后一百万之间 （量级为100 —— 300 万）
                     System.out.println("手头money:" + 2050000 + "RMB");
                     System.out.println("资产一套房子");
+                    // 一线城市养老金需要多少https://www.cebnet.com.cn/20180531/102495548.html
                 } else {
                     System.out.println("无业，另谋生路");
                     System.out.println("35岁之后已经不能进体制/读书太老");
                     System.out.println("选择创业/当培训老师/做生意");
+                    System.out.println("也可能回到老家省会/老家");
                 }
             }
         } else {
@@ -128,6 +130,5 @@ public class OneLife extends Life {
             System.out.println("手头money:" + 480000 + "RMB");
             System.out.println("资产一套房子");
         }
-        // 由此得出，消耗青春赚快钱
     }
 }
